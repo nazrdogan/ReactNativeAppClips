@@ -18,7 +18,7 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* ReactNativeAppClipsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativeAppClipsTests.m */; };
 		4AB6D30348F3658BCC697FBE /* libPods-ReactNativeAppClips-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EAC72E17B7FCB28A4323110 /* libPods-ReactNativeAppClips-tvOS.a */; };
-		5C18E0EEE80840D06E79472D /* BuildFile in Frameworks */ = {isa = PBXBuildFile; };
+		5C18E0EEE80840D06E79472D /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		68284249F1D744415899C19D /* libPods-ReactNativeAppClips-RNClip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BFCDEE3A8C8FBF1B96C0671 /* libPods-ReactNativeAppClips-RNClip.a */; };
 		68A66D1524AAA2EF00E77147 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A66D1424AAA2EF00E77147 /* AppDelegate.m */; };
 		68A66D1824AAA2EF00E77147 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A66D1724AAA2EF00E77147 /* SceneDelegate.m */; };
@@ -94,10 +94,6 @@
 		501BEE6440FE7DF8E53DF660 /* Pods-ReactNativeAppClips-ReactNativeAppClipsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeAppClips-ReactNativeAppClipsTests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeAppClips-ReactNativeAppClipsTests/Pods-ReactNativeAppClips-ReactNativeAppClipsTests.release.xcconfig"; sourceTree = "<group>"; };
 		5739A87D2043576FAE36F140 /* Pods-ReactNativeAppClips-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeAppClips-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeAppClips-tvOS/Pods-ReactNativeAppClips-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		5BFCDEE3A8C8FBF1B96C0671 /* libPods-ReactNativeAppClips-RNClip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeAppClips-RNClip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		68A66CF024AAA13900E77147 /* ClipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipsTests.swift; sourceTree = "<group>"; };
-		68A66CF224AAA13900E77147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		68A66CFB24AAA13900E77147 /* ClipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipsUITests.swift; sourceTree = "<group>"; };
-		68A66CFD24AAA13900E77147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68A66D1124AAA2EF00E77147 /* RNClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68A66D1324AAA2EF00E77147 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		68A66D1424AAA2EF00E77147 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -135,7 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A19169CCBC8D57EA72DBBD15 /* libPods-ReactNativeAppClips.a in Frameworks */,
-				5C18E0EEE80840D06E79472D /* BuildFile in Frameworks */,
+				5C18E0EEE80840D06E79472D /* (null) in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,24 +225,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		68A66CEF24AAA13900E77147 /* ClipsTests */ = {
-			isa = PBXGroup;
-			children = (
-				68A66CF024AAA13900E77147 /* ClipsTests.swift */,
-				68A66CF224AAA13900E77147 /* Info.plist */,
-			);
-			path = ClipsTests;
-			sourceTree = "<group>";
-		};
-		68A66CFA24AAA13900E77147 /* ClipsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				68A66CFB24AAA13900E77147 /* ClipsUITests.swift */,
-				68A66CFD24AAA13900E77147 /* Info.plist */,
-			);
-			path = ClipsUITests;
-			sourceTree = "<group>";
-		};
 		68A66D1224AAA2EF00E77147 /* RNClip */ = {
 			isa = PBXGroup;
 			children = (
@@ -279,8 +257,6 @@
 				13B07FAE1A68108700A75B9A /* ReactNativeAppClips */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* ReactNativeAppClipsTests */,
-				68A66CEF24AAA13900E77147 /* ClipsTests */,
-				68A66CFA24AAA13900E77147 /* ClipsUITests */,
 				68A66D1224AAA2EF00E77147 /* RNClip */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
