@@ -1,4 +1,4 @@
-# ReactNative App Clip
+# React Native App Clip
 
 
 iOS 14 App Clip Demo App
