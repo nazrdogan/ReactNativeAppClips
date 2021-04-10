@@ -18,6 +18,7 @@
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* ReactNativeAppClipsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativeAppClipsTests.m */; };
 		5A6448FFCF196830B564E7D8 /* libPods-RNClip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9ED070A037570D52AEC085 /* libPods-RNClip.a */; };
+		6888BE6426221ED200873378 /* AppClipLinkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6888BE6326221ED200873378 /* AppClipLinkingManager.m */; };
 		68A66D1524AAA2EF00E77147 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A66D1424AAA2EF00E77147 /* AppDelegate.m */; };
 		68A66D1824AAA2EF00E77147 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A66D1724AAA2EF00E77147 /* SceneDelegate.m */; };
 		68A66D1B24AAA2EF00E77147 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68A66D1A24AAA2EF00E77147 /* ViewController.m */; };
@@ -89,6 +90,8 @@
 		2D02E47B1E0B4A5D006451C7 /* ReactNativeAppClips-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ReactNativeAppClips-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* ReactNativeAppClips-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ReactNativeAppClips-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D9ED070A037570D52AEC085 /* libPods-RNClip.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNClip.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6888BE6326221ED200873378 /* AppClipLinkingManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppClipLinkingManager.m; sourceTree = "<group>"; };
+		6888BE6A26221F0100873378 /* AppClipLinkingManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppClipLinkingManager.h; sourceTree = "<group>"; };
 		68A66D1124AAA2EF00E77147 /* RNClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68A66D1324AAA2EF00E77147 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		68A66D1424AAA2EF00E77147 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -238,6 +241,8 @@
 				68A66D2424AAA2F000E77147 /* Info.plist */,
 				68A66D2524AAA2F000E77147 /* main.m */,
 				68A66D2724AAA2F000E77147 /* RNClip.entitlements */,
+				6888BE6326221ED200873378 /* AppClipLinkingManager.m */,
+				6888BE6A26221F0100873378 /* AppClipLinkingManager.h */,
 			);
 			path = RNClip;
 			sourceTree = "<group>";
@@ -717,6 +722,7 @@
 				68A66D1524AAA2EF00E77147 /* AppDelegate.m in Sources */,
 				68A66D2624AAA2F000E77147 /* main.m in Sources */,
 				68A66D1824AAA2EF00E77147 /* SceneDelegate.m in Sources */,
+				6888BE6426221ED200873378 /* AppClipLinkingManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

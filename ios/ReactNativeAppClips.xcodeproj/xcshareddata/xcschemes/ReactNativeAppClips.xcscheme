@@ -60,6 +60,13 @@
             ReferencedContainer = "container:ReactNativeAppClips.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "_XCAppClipURL"
+            value = "https://example.com"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
